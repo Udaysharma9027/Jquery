@@ -1,0 +1,63 @@
+
+<html>
+<head>
+<title> Third Program</title>
+<script src="jquery.js"></script>
+<script>
+    $("document").ready(
+	              function(){
+				  
+				    $("body").css("background-color","red");
+				    $("#first").css("font-size","100px");
+					$("#first").css("font-family","upper-alpha");
+					$("#first").css("border","2px dotted green");
+					$("#first").css("color","yellow");
+					$("#first").css("text-align","center");
+					
+				  }	    
+	
+	);
+	
+
+</script>
+
+
+<script>
+         $("document").ready(function(){
+
+
+                     $("#second").css("margin-top","190px");
+				    $("#second").css("font-size","100px");
+					$("#second").css("font-family","upper-alpha");
+					$("#second").css("border","3px dotted #1d6581");
+					$("#second").css("color","blue");
+					$("#second").css("text-align","center");
+
+
+
+});
+</script>
+
+<script>
+          $("document").ready(function(){
+		  
+		       $("#third").css("border" , " 5px dotted #2d596a");
+			   $("#third").css("font-size", "90px");
+			   $("#third").css("font-family","uppercase");
+			   $("#third").css("text-align","center");
+			   $("#third").css("margin-top","190px");
+			   $("#third").css("color","#5d2e6b")
+		  
+		  });
+   
+
+</script>
+
+</head>
+<body>
+ <h1 id="first"> First Program</h1>
+ <h1 id="second"> Second Program</h1>
+  <h1 id="third">Third Program</h1> 
+
+</body>
+</html>
