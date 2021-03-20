@@ -1,0 +1,20 @@
+body{
+	   background-color:green;
+	   text-align:center;
+	
+	
+}
+
+#textBox{
+	       width: 520px;
+		   height:520px;
+		   border:3px dotted red;
+		   background-color:blue;
+		   color : yellow;
+		   text-align:center;
+		   position:relative;
+		   left:500px;
+		   top:100px;
+	
+	
+}
