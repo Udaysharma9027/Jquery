@@ -1,0 +1,55 @@
+
+<html>
+<head><title>Animate Program </title>
+<script src="jquery.js"></script>
+<link rel="stylesheet" href="program12.css">
+<script>
+  $("documnet").ready(function(){
+  
+     $("#grow").on("click",function(){
+	 
+	    $("#textBox").animate({
+		             width:"1000px"
+		
+		},2000);
+	 
+	 });
+	 
+     $("#move").on("click",function(){
+	 
+	    $("#textBox").animate({
+		             marginLeft:"500px",marginTop:"500px" ,marginRight:"500px"
+		},3000);
+	 
+	 });
+	 
+	 $("#ManyTask").on("click",function(){
+	 
+	    $("#textBox").animate({
+		             marginRight:"500px",marginLeft:"500px" ,backgroundColor:"yello",height:"1000px"
+		},3000);
+	 
+	 });
+	 
+  });
+
+
+</script>
+</head>
+<body>
+<a href="#" id="grow">Grow </a>|| <a href="#" id="move">Move </a> || <a href="#" id="ManyTask">Many Task </a><br><br>
+<div id="textBox"><p>"On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and 
+demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee
+ the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty
+ through weakness of will, which is the same as saying through shrinking from toil and pain. These cases 
+ are perfectly simple</p>
+ <p>and easy to distinguish. In a free hour, when our power of choice is untrammelled a
+ nd when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and
+ every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations 
+ of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. 
+ The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures
+ to secure other greater pleasures, or else he endures pains to avoid worse pains."
+</p></div>
+
+</body>
+</html>
