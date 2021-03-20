@@ -1,0 +1,31 @@
+
+<html>
+<head><title> Heading Event </title>
+<link rel="stylesheet" type="text/css" href="program6.css">
+<script src="jquery.js"></script>
+<script>
+$("document").ready(function(){
+
+
+    $("#textBox").on("click",whenMouseIsClicked);
+	$("#textBox").on("mouseleaves",whenMouseLeaves);
+	
+	function whenMouseIsClicked(){
+	
+	$("#textBox").html("<h1> You Clicked me</h1>");
+	}
+	function whenMouseLeaves(){
+	$("#textBox").html("<h1> where you gone</h1>");
+	}
+	
+
+});
+
+</script>
+
+
+<head>
+<body>
+<div id="textBox"></div>
+</body>
+</html>
